@@ -5,3 +5,7 @@ AI can detect emotions by learning what each facial expression means and applyin
 ### Objective of this project 
 - Detecting human faces from an image
 - Building an Artificial Intelligence model for automatically recognizing facial emotion 
+## Files Description
+### train.csv
+This file contains the raw training data in tabular format 
+
