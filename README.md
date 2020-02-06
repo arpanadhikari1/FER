@@ -5,8 +5,6 @@ AI can detect emotions by learning what each facial expression means and applyin
 ### Objective of this project 
 - Detecting human faces from an image
 - Building an Artificial Intelligence model for automatically recognizing facial emotion 
-
-
 ## Files Description
 ### train.csv
 This file contains the raw training data in tabular format consisting of the following fields 
@@ -18,13 +16,9 @@ This file contains the code to convert the raw training data(train csv) into ima
 This file contains the code to train the neural network with the prepared data and saving model weights.
 ### Test.py
 This file contains the code to detect all the faces from an image and predicting the emotion of each person using the newly build model.
-
-
 ## System Requirements
 - **Language uaed:** Python 3.7
 - **Tools used:** PyTorch, Torchvision, OpenCV, NumPy, Pandas, Matplotlib, Seaborn, Scikit Learn 
 - **Platform used:** Spyder 3
-
-
 ## Acknowledgement 
 The data used in this project is taken from 
