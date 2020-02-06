@@ -14,4 +14,14 @@ This file contains the raw training data in tabular format consisting of the fol
 ### Preparation.py 
 This file contains the code to convert the raw training data(train csv) into images in "jpg" format and storing the data in an organized way that is sorting images by their emotion category, storing images of different categories in different folders according to emotion category inside a folder "Train data".
 ### Train.py
-This file contains the code to build the
+This file contains the code to train the neural network with the prepared data and saving model weights.
+### Test.py
+This file contains the code to detect all the faces from an image and predicting the emotion of each person using the newly build model.
+
+## System Requirements
+- **Language uaed:** Python 3.7
+- **Tools used:** PyTorch, Torchvision, OpenCV, NumPy, Pandas, Matplotlib, Seaborn, Scikit Learn 
+- **Platform used:** Spyder 3
+
+## Acknowledgement 
+The data used in this project is taken from 
