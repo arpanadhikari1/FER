@@ -1,4 +1,4 @@
-# Facial Emotion Recognition
+# Facial Emotion Recognition using Deep Learning
 ## Introduction
 Facial emotion recognition is the process of detecting human emotions from facial expressions. 
 AI can detect emotions by learning what each facial expression means and applying that knowledge to the new information presented to it. 
