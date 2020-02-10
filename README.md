@@ -20,10 +20,10 @@ This file contains the code to train the neural network model using the prepared
 This directory contains two files:
 - **Facial_Emotion_Recognizer.pt**: model weights generated from executing Train.py.
 - **haarcascade_frontalface_default.xml**: pre-built model for face detection. 
-## Use
-To test it on an image(in "jpg" format) download the project, save the image file as "Test_umage.jpg" in the same directory where the all the files and folders of the project is stored and execute the file "Test.py".
 ### Test.py
 This file contains the code to detect all the faces from an image using the pre-built model "haarcascade_frontalface_default.xml" and predicting the emotion of each person using the newly build model "Facial_Emotion_Recognizer.pt".
+## Use
+To test it on an image(in "jpg" format) download the project, save the image file as "Test_umage.jpg" in the same directory where the all the files and folders of the project is stored and execute the file "Test.py".
 ## System Requirements
 - **Language uaed:** Python 3.7
 - **Tools used:** PyTorch, Torchvision, OpenCV, NumPy, Pandas, Matplotlib, Seaborn, Scikit Learn 
