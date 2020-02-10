@@ -11,17 +11,17 @@ This file contains the raw training data in tabular format consisting of the fol
 - input: 48x48 pixel gray values (between 0 and 255)
 - target: emotion category (beween 0 and 6: anger=0, disgust=1, fear=2, happy=3, sad=4, surprise=5, neutral=6) 
 ### Preparation.py 
-This file contains the code to convert the raw training data(train csv) into images in "jpg" format and storing the data in an organized way that is sorting images by their emotion category, storing images of different categories in different folders according to emotion category inside a folder "Train data".
+This file contains the code to convert the raw training data(train csv) into images in "jpg" format and storing the data in an organized way that is sorting images by their emotion category, storing images of different categories in different directory according to emotion category inside a parent directory "Face Datasets".
 ### Face Datasets 
 This directory contains the images in "jpg" formats created by executing the file "Preparation.py".
 ### Train.py
-This file contains the code to train the neural network model with the prepared data and saving the model weights generated for later used. 
+This file contains the code to train the neural network model using the prepared data stored in the directory "Face Datasets" and saving the model weights generated in the file "Facial_Emotion_Recognizer.pt" for later use. 
 ### models
 This directory contains two files:
-- Facial_Emotion_Recognizer.pt: contains model weights generated from executing Train.py.
-- haarcascade_frontalface_default.xml: contains the model for face detection. 
+- Facial_Emotion_Recognizer.pt: model weights generated from executing Train.py.
+- haarcascade_frontalface_default.xml: pre-built model for face detection. 
 ### Test.py
-This file contains the code to detect all the faces from an image and predicting the emotion of each person using the newly build model.
+This file contains the code to detect all the faces from an image using the pre-built model "haarcascade_frontalface_default.xml" and predicting the emotion of each person using the newly build model "Facial_Emotion_Recognizer.pt".
 ## System Requirements
 - **Language uaed:** Python 3.7
 - **Tools used:** PyTorch, Torchvision, OpenCV, NumPy, Pandas, Matplotlib, Seaborn, Scikit Learn 
