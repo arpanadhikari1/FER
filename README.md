@@ -18,8 +18,8 @@ This directory contains the images in "jpg" formats created by executing the fil
 This file contains the code to train the neural network model using the prepared data stored in the directory "Face Datasets" and saving the model weights generated in the file "Facial_Emotion_Recognizer.pt" for later use. 
 ### models
 This directory contains two files:
-- Facial_Emotion_Recognizer.pt: model weights generated from executing Train.py.
-- haarcascade_frontalface_default.xml: pre-built model for face detection. 
+- **Facial_Emotion_Recognizer.pt**: model weights generated from executing Train.py.
+- **haarcascade_frontalface_default.xml**: pre-built model for face detection. 
 ### Test.py
 This file contains the code to detect all the faces from an image using the pre-built model "haarcascade_frontalface_default.xml" and predicting the emotion of each person using the newly build model "Facial_Emotion_Recognizer.pt".
 ## System Requirements
