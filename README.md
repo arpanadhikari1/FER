@@ -27,4 +27,4 @@ This file contains the code to detect all the faces from an image and predicting
 - **Tools used:** PyTorch, Torchvision, OpenCV, NumPy, Pandas, Matplotlib, Seaborn, Scikit Learn 
 - **Platform used:** Spyder 3
 ## Acknowledgement 
-The data and the model for face detection used in this project has been taken from https://www.kaggle.com/c/facial-keypoints-detector/download/4EFQ2wWv1JculvQOAyVD%2Fversions%2FXb8kwFAz90jTlAhRkFUo%2Ffiles%2Ftrain.csv and https://www.kaggle.com/lalitharajesh/haarcascades/download/czIhRt0JFYMiIYwsaJ0y%2Fversions%2FzcaJOIihNcjthWl9XKtb%2Ffiles%2Fhaarcascade_eye.xml?datasetVersionNumber=1 respectively.
+The data and the model for face detection used in this project has been taken from https://www.kaggle.com/c/facial-keypoints-detector/download/4EFQ2wWv1JculvQOAyVD%2Fversions%2FXb8kwFAz90jTlAhRkFUo%2Ffiles%2Ftrain.csv and https://www.kaggle.com/lalitharajesh/haarcascades/download/czIhRt0JFYMiIYwsaJ0y%2Fversions%2FzcaJOIihNcjthWl9XKtb%2Ffiles%2Fhaarcascade_frontalface_default.xml?datasetVersionNumber=1 respectively.
