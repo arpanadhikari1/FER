@@ -19,7 +19,7 @@ This file contains the code to train the neural network model with the prepared 
 ### models
 This directory contains two files:
 - Facial_Emotion_Recognizer.pt: contains model weights generated from executing Train.py.
-- haarscacade_frontalface_default.pt: contains the model for face detection. 
+- haarcascade_frontalface_default.xml: contains the model for face detection. 
 ### Test.py
 This file contains the code to detect all the faces from an image and predicting the emotion of each person using the newly build model.
 ## System Requirements
