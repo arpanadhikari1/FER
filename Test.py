@@ -48,7 +48,7 @@ class Net(nn.Module):
         return f.log_softmax(x,dim=1)
 
 faceCascade=cv2.CascadeClassifier("models/haarcascade_frontalface_default.xml")
-image=cv2.imread("Test images/IMG_20180824_211229.jpg")
+image=cv2.imread("Test_image.jpg")
 #gray=cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
 
 faces=faceCascade.detectMultiScale(image,
