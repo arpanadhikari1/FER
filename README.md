@@ -3,8 +3,8 @@
 Facial emotion recognition is the process of detecting human emotions from facial expressions. 
 AI can detect emotions by learning what each facial expression means and applying that knowledge to the new information presented to it. 
 ### Project Objectives 
-- Detecting human faces from an image
-- Building an Artificial Intelligence model for automatically recognizing facial emotion 
+- Detecting all the human faces from an image
+- Building an Artificial Intelligence model for automatically recognizing facial emotion of each person
 ## Files Description
 ### data/train.csv
 This file contains the raw training data in tabular format consisting of the following fields 
@@ -23,7 +23,7 @@ This directory contains two files:
 ### Test.py
 This file contains the code to detect all the faces from an image using the pre-built model "haarcascade_frontalface_default.xml" and predicting the emotion of each person using the newly build model "Facial_Emotion_Recognizer.pt".
 ## Use
-To test it on an image(in "jpg" format) download the project, save the image file as "Test_umage.jpg" in the same directory where the all the files and folders of the project is stored and execute the file "Test.py".
+To test it on an image(in "jpg" format) download the project, save the image file as "Test_image.jpg" in the same directory where the all the files and folders of the project is stored and execute the file "Test.py".
 ## System Requirements
 - **Language uaed:** Python 3.7
 - **Tools used:** PyTorch, OpenCV, NumPy, Pandas, Matplotlib, Seaborn, Scikit Learn 
