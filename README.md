@@ -29,11 +29,11 @@ This file contains the code to detect all the faces from an image using the pre-
 - **Platform used:** Spyder 3
 
 ## How to use
-- ### Step 1 
+- Step 1 
 Download all the files.
-- ### Step 2
+- Step 2
 Save an image file("jpg" format) containing some human faces as "Test_image.jpg" in the same directory where the file "Test.py" is located.
-- ### Step 3
+- Step 3
 Run the file "Test.py" in your compiler/IDE("Spyder 3" in my case), optionally you can run the file "Train.py" before executing "Test.py" if you want to retrain the model.
 
 Note: Before executing see that your system satisfies all the system requirements.
