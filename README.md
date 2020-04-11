@@ -28,7 +28,7 @@ This file contains the code to detect all the faces from an image using the pre-
 - **Tools used:** PyTorch, OpenCV, NumPy, Pandas, Matplotlib, Seaborn, Scikit Learn 
 - **Platform used:** Spyder 3
 
-##How to use
+## How to use
 - ### Step 1 
 Download all the files.
 - ### Step 2
