@@ -1,5 +1,5 @@
 azure-functions
-request
+requests
 numpy==1.16.2
 pandas==0.24.2
 matplotlib==3.0.3
