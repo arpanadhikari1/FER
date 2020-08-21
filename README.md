@@ -23,7 +23,7 @@ This directory contains two files:
 ### Test.py
 This file contains the code to detect all the faces from an image using the pre-built model "haarcascade_frontalface_default.xml" and predicting the emotion of each person using the newly build model "Facial_Emotion_Recognizer.pt".
 
-## System Requirements
+## Specifications
 - **Language uaed:** Python 3.7
 - **Tools used:** PyTorch, TorchVision, OpenCV, NumPy, Pandas, Matplotlib, Seaborn, Scikit Learn 
 - **Platform used:** Spyder 3
@@ -38,5 +38,5 @@ Run the file "Test.py" in your compiler/IDE("Spyder 3" in my case), optionally y
 
 *Note: Before executing see that your system satisfies all the system requirements.*
 
-## Acknowledgement 
+## Attributions 
 The data and the model for face detection used in this project has been taken from https://www.kaggle.com/c/facial-keypoints-detector/download/4EFQ2wWv1JculvQOAyVD%2Fversions%2FXb8kwFAz90jTlAhRkFUo%2Ffiles%2Ftrain.csv and https://www.kaggle.com/lalitharajesh/haarcascades/download/czIhRt0JFYMiIYwsaJ0y%2Fversions%2FzcaJOIihNcjthWl9XKtb%2Ffiles%2Fhaarcascade_frontalface_default.xml?datasetVersionNumber=1 respectively.
